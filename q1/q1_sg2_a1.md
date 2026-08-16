@@ -1,3 +1,5 @@
+https://github.com/aryann-e/cs3/blob/main/q1/q1_sg2_a1.md
+
                           Annex A
 Computational Thinking Exercise: "Smart School Canteen Queue"
 
