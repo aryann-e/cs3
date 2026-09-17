@@ -5,7 +5,7 @@ Code Quality Assessment Worksheet
 Section: Samat Score:____________
 
 C# / Name: #8 / Aryann Theodore Millo    Date: 8/16/2026
-Groupmates: Aryann Theodore Millo and Giovanni Roliz Gamboa
+Groupmates: Franco Mateo Molina and Giovanni Roliz Gamboa
 
 
 Instructions:
