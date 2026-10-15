@@ -58,7 +58,7 @@ print("\nPublication 2 Information:")
 pub2.display()
 
 print("\nBook Information:")
-
+book1.display()
 book1.set_no_of_pages(310)
 print(book1.get_no_of_pages())
 
