@@ -10,4 +10,10 @@ class Publication:
         return self.__author
     def author(self):
         self.__author = author
-    
+    def display(self):
+        print(f"Title: {self.__title}")
+        print(f"Author: {self.__author}")
+
+class Book(Publication):
+    def __init__(self,title,author,pages):
+        super().__init__(title,author)
