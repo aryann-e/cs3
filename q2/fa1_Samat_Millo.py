@@ -58,16 +58,14 @@ print("\nPublication 2 Information:")
 pub2.display()
 
 print("\nBook Information:")
+book1.set_no_of_pages(-310)
 book1.display()
-book1.set_no_of_pages(310)
-print(book1.get_no_of_pages())
 
 print("\nBook 2 Information:")
 book2.display()
 
 print("\nMagazine Information:")
 mag1.display()
-print(mag1.get_issue_no())
 
 print("\nMagazine 2 Information:")
 mag2.display()
