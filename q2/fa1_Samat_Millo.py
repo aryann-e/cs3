@@ -11,8 +11,8 @@ class Publication:
     def set_author(self):
         self.__author = author
     def display(self):
-        print(f"Title: {self.__title}")
-        print(f"Author: {self.__author}")
+        print("Title: ",self.__title)
+        print("Author: ",self.__author)
 
 class Book(Publication):
     def __init__(self,title,author,no_of_pages):
@@ -21,13 +21,13 @@ class Book(Publication):
     def get_no_of_pages(self):
         return self.__no_of_pages
     def set_no_of_pages(self,no_of_pages):
-        if no_of_pages <= 0:
-            print("The number of pages must be positive.")
+        if no_of_pages < 0:
+            print("Number of pages must be positive.")
         else:
             self.__no_of_pages = no_of_pages
     def display(self):
         super().display()
-        print(f"Number of pages: {self.__no_of_pages}")
+        print("Number of pages: ",self.__no_of_pages)
 
 class Magazine(Publication):
     def __init__(self, title, author, issue_no):
@@ -36,13 +36,13 @@ class Magazine(Publication):
     def get_issue_no(self):
         return self.__issue_no
     def set_issue_no(self,issue_no):
-        if issue_no <= 0:
-            print("The issue number must be positive.")
+        if issue_no < 0:
+            print("Issue number must be positive.")
         else:
             self.__issue_no = issue_no
     def display(self):
         super().display()
-        print(f"Issue Number: {self.__issue_no}")
+        print("Issue Number: ",self.__issue_no)
 
 pub1 = Publication("Journal of Experimental Psychology", "Ratchiff, R. & Van Dongen, H.")
 pub2 = Publication("Python Tutorial", "Guido Van Rossum")
