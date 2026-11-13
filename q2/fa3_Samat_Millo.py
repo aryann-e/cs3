@@ -21,4 +21,4 @@ ph_sensor.get_reading()
 temp_sensor.get_reading()
 print("-" * 28)
 
-# my_sensor = Sensor()
+"my_sensor = Sensor()"
