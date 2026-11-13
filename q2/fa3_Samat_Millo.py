@@ -19,5 +19,3 @@ sensor2 = TempSensor()
 print(sensor1.get_data())
 print(sensor2.get_data())
 print("\n----------------------------")
-
-#my_sensor = Sensor()
