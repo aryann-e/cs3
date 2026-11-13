@@ -14,3 +14,4 @@ First Quarter
 Second Quarter
 - https://github.com/aryann-e/cs3/blob/main/q2/fa1_Samat_Millo.py
 - https://github.com/aryann-e/cs3/blob/main/q2/fa2_Samat_Millo.py
+- https://github.com/aryann-e/cs3/blob/main/q2/fa3_Samat_Millo.py
